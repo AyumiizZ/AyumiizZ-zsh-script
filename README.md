@@ -1,0 +1,1 @@
+# AyumiizZ-zsh-script
