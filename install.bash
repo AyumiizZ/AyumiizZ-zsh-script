@@ -10,11 +10,14 @@ cd ~/.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 cd -
 echo "=========== EDIT ZSHRC ============="
+git clone https://github.com/AyumiizZ/AyumiizZ-zsh-script.git
+cd ~/AyumiizZ-zsh-script.git
 cat .zshrc_head > .zshrc
 echo "export ZSH=/home/"$USER"/.oh-my-zsh" >> .zshrc
 cat .zshrc_tail >> .zshrc
+echo "source /home/"$USER"/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> .zshrc
 cp --recursive .oh-my-zsh .zshrc ~/.
-echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+cd -
 
 echo -n "\033c"
 
