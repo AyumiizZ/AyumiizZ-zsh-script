@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 echo "============== UPDATE =============="
 sudo apt-get -y update
 echo "============ INSTALL ZSH ==========="
@@ -9,19 +8,18 @@ echo "============ CLONE GIT ============="
 cd ~
 git clone https://github.com/AyumiizZ/zsh-install.git
 cd zsh-install
+cat .zshrc_head > .zshrc
+echo "export ZSH=/home/"$USER"/.oh-my-zsh" >> .zshrc
+cat .zshrc_tail >> .zshrc
 cp --recursive .oh-my-zsh .zshrc ~/.
 
 echo -n "\033c"
 
-echo "===================================="
-echo "= How to change default shell      ="
-echo "= run this command in terminal     ="
-echo "= sudo chsh -s /bin/zsh <username> ="
-echo "= reboot computer 1 time after run ="
-echo "===================================="
+echo "======= CHANGE DEFAULT SHELL ======="
+sudo chsh -s /bin/zsh $USER
 
 echo "============ START ZSH ============="
-zsh
-
 echo "======== ENJOY YOUR ZSH :) ========="
 echo "========= github/AyumiizZ =========="
+zsh
+
