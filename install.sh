@@ -10,6 +10,7 @@ rm -rf ~/.oh-my-zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cd ~/.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 cd -
 echo "=========== EDIT ZSHRC ============="
 cat .zshrc_head > .zshrc
