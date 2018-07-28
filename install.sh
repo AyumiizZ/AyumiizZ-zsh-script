@@ -1,3 +1,4 @@
+main(){
 echo "============== UPDATE =============="
 sudo apt-get -y update
 echo "============ INSTALL ZSH ==========="
@@ -28,4 +29,6 @@ echo "============ START ZSH ============="
 echo "======== ENJOY YOUR ZSH :) ========="
 echo "========= github/AyumiizZ =========="
 zsh
+}
+main
 
