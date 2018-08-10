@@ -24,7 +24,7 @@ cp --recursive .oh-my-zsh .zshrc ~/.
 cd ~
 rm -rf AyumiizZ-zsh-script
 
-echo -n "\033c"
+# echo -n "\033c"
 
 echo "======= CHANGE DEFAULT SHELL ======="
 sudo chsh -s /bin/zsh $USER

@@ -90,7 +90,6 @@ source $ZSH/oh-my-zsh.sh
   POWERLEVEL9K_CONTEXT_REMOTE_SUDO_FOREGROUND='white'
   POWERLEVEL9K_STATUS_CROSS=true
   POWERLEVEL9K_STATUS_OK=false
-  source /home/zeabus/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
