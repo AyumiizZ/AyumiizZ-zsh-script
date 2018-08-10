@@ -21,7 +21,8 @@ echo "export ZSH=/home/"$USER"/.oh-my-zsh" >> .zshrc
 cat .zshrc_tail >> .zshrc
 echo "source /home/"$USER"/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> .zshrc
 cp --recursive .oh-my-zsh .zshrc ~/.
-
+cd ~
+rm -rf AyumiizZ-zsh-script
 
 echo -n "\033c"
 
