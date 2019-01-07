@@ -8,5 +8,5 @@
 4. run `./install.sh`
 #### via wget
 ```shell
-sh -c "$(wget https://raw.githubusercontent.com/AyumiizZ/AyumiizZ-zsh-script/one-line/install.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/AyumiizZ/AyumiizZ-zsh-script/master/one-line/install.sh -O -)"
 ```
