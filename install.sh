@@ -3,8 +3,6 @@ echo "============== UPDATE =============="
 sudo apt-get -y update
 echo "============ INSTALL ZSH ==========="
 sudo apt-get -y install zsh
-echo "============ INSTALL GIT ==========="
-sudo apt-get -y install git
 echo "======== INSTALL OH MY ZSH ========="
 rm -rf ~/.oh-my-zsh ~/.zshrc
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
