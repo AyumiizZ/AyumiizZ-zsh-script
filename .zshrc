@@ -4,7 +4,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir_wirtable context dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir_writable context dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator ram)
 POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='white'
 POWERLEVEL9K_CONTEXT_ROOT_FOREGROUND='yellow'
