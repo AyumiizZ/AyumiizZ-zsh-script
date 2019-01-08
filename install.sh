@@ -11,10 +11,10 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 echo "=========== EDIT ZSHRC ============="
 echo "export ZSH="$HOME"/.oh-my-zsh" > ~/.zshrc
 cat .zshrc >> ~/.zshrc
-if ![ -f ~/.zsh_aliases -o -d ~/.zsh_aliases ];
+if ![ -f ~/.zsh_aliases -o -d ~/.zsh_aliases ]; then
     touch ~/.zsh_aliases
 fi
-echo "source "$HOME"/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> .zshrc
+echo "source "$HOME"/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 cp --recursive .zshrc ~/.
 cd ../
 rm -rf AyumiizZ-zsh-script
